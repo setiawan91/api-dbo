@@ -25,10 +25,10 @@ class JwtMiddleware extends BaseMiddleware
      * @param  \Closure  $next
      * @return mixed
      */
-    public function handle(Request $request, Closure $next)
-    {
-        return $next($request);
-    }
+    // public function handle(Request $request, Closure $next)
+    // {
+    //     return $next($request);
+    // }
 
     public function handle($request, Closure $next)
     {
